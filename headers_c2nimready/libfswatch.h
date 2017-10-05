@@ -229,3 +229,10 @@ extern "C"
 #  endif
 
 #endif /* LIBFSW_H */
+
+
+#ifdef C2NIM
+#@
+include private/nim_additions
+@#
+#endif

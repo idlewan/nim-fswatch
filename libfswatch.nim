@@ -214,3 +214,4 @@ proc is_verbose*(): bool {.cdecl, importc: "fsw_is_verbose", dynlib: libfswatch.
 
 proc set_verbose*(verbose: bool) {.cdecl, importc: "fsw_set_verbose",
                                 dynlib: libfswatch.}
+include private/nim_additions
